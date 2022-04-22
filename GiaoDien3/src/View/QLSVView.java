@@ -536,7 +536,7 @@ public class QLSVView extends JFrame {
 		//vào model lấy hết tất cả sinh viên rồi add lại vào table
 		for (ThiSinh ts : this.model.getDsThiSinh()) {
 			//truước khi có thao tác thêm thì phải xóa hết ra khỏi table
-			////
+			//
 			
 			this.themMotSinhVienVaoTable(ts);
 		}
